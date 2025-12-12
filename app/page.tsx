@@ -98,8 +98,8 @@ export default function Home() {
       </section>
       <section className="h-screen bg-primary border-b-2 bg-[url(/undersea-web.png)]" id="wallpaper">
         <div className="float-right w-1/2 h-svh bg-[#2e3440] flex flex-col items-center justify-center gap-6" style={{ clipPath: "polygon(20% 0, 100% 0%, 100% 100%, 0% 100%)" }}>
-          <h2 className="text-white text-5xl">Undersea Tiling Wallpaper</h2>
-          <Image src="/undersea-web.png" alt="Undersea Tiling Wallpaper" height={373} width={538} />
+          <h2 className="text-white text-5xl max-w-1/2 text-center">Undersea Tiling Wallpaper</h2>
+          <Image src="/undersea-print.png" alt="Undersea Tiling Wallpaper" height={373} width={538} />
           <p className="text-white text-center max-w-1/2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
