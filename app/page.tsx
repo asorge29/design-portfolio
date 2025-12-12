@@ -4,6 +4,14 @@ export default function Home() {
   return (
     <main className="font-jetbrains">
       <section className="h-screen bg-[#f6efd5] flex flex-row items-center justify-center gap-80">
+        {/*<div className="w-svw top-0 left-0 absolute z-10">*/}
+        {/*  <div className="h-4 w-full bg-[#5EBD3E]"></div>*/}
+        {/*  <div className="h-4 w-full bg-[#FFB900]"></div>*/}
+        {/*  <div className="h-4 w-full bg-[#F78200]"></div>*/}
+        {/*  <div className="h-4 w-full bg-[#E23838]"></div>*/}
+        {/*  <div className="h-4 w-full bg-[#973999]"></div>*/}
+        {/*  <div className="h-4 w-full bg-[#009CDF]"></div>*/}
+        {/*</div>*/}
         <h1 className="tk-anatol-mn text-9xl">Andy Sorge</h1>
         <div className="max-w-1/5">
           <p>
@@ -15,10 +23,18 @@ export default function Home() {
       <section className="h-screen bg-primary border-b-2">
         <h2>Design Reflections</h2>
       </section>
-      <section className="h-screen bg-primary border-b-2">
-        <h2>Self Portrait Collage</h2>
+      <section className="h-screen bg-primary border-b-2 flex flex-row items-center justify-center" id="self-portrait">
+        <div className="flex-1 flex justify-center items-center p-20">
+          <Image src="/collage.png" alt="Self Portrait Collage" className="w-full" width="2667" height="2000" />
+        </div>
+        <div className="flex-1 p-20 flex flex-col gap-4">
+          <h2 className="text-5xl text-center">Self Portrait Collage</h2>
+          <p className="text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
       </section>
-      <section className="h-screen bg-primary border-b-2 bg-[url(/la_sunset.avif)]" id="red-hot">
+      <section className="h-screen bg-primary border-b-2 bg-[url(/la_sunset.avif)] bg-cover" id="red-hot">
         <div className="w-full h-full backdrop-brightness-50 flex flex-row items-center justify-center">
           <div className="flex flex-col items-center justify-center flex-1 w-full h-full">
             <h2 className="tk-groupie-gloss text-[30vh] text-[#d91e36] text-outline-white">RED HOT</h2>
@@ -80,14 +96,26 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="h-screen bg-primary border-b-2">
-        <h2>Patterned Wallpaper</h2>
+      <section className="h-screen bg-primary border-b-2 bg-[url(/undersea-web.png)]" id="wallpaper">
+        <div className="float-right w-1/2 h-svh bg-[#2e3440] flex flex-col items-center justify-center gap-6" style={{ clipPath: "polygon(20% 0, 100% 0%, 100% 100%, 0% 100%)" }}>
+          <h2 className="text-white text-5xl">Undersea Tiling Wallpaper</h2>
+          <Image src="/undersea-web.png" alt="Undersea Tiling Wallpaper" height={373} width={538} />
+          <p className="text-white text-center max-w-1/2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
       </section>
       <section className="h-screen bg-primary border-b-2">
         <h2>Scenic Words Poster</h2>
       </section>
-      <section className="h-screen bg-primary border-b-2">
-        <h2>Gestalt Theory Animation</h2>
+      <section className="h-screen bg-primary border-b-2 flex flex-col items-center justify-center gap-12 bg-[#0c7639]" id="gestalt">
+        <h2 className="text-7xl">Gestalt Theory Animation</h2>
+        <video autoPlay loop muted className="h-auto w-auto max-w-1/2 max-h-1/2">
+          <source src="/gestalt.mp4" type="video/mp4" />
+        </video>
+        <p className="text-center max-w-1/2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </section>
       <section className="h-screen bg-primary border-b-2">
         <h2>Animated Logo</h2>
