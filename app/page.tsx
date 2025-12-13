@@ -3,7 +3,118 @@ import Image from "next/image"
 export default function Home() {
   return (
     <main className="font-jetbrains">
-      <section className="h-screen flex flex-row items-center justify-center gap-80">
+      <div className="fixed left-6 h-screen w-16 z-40 flex flex-col items-start justify-center gap-4">
+
+          <div
+            className="group h-6 w-6 hover:w-11 bg-[#5EBD3E] overflow-hidden transition-all duration-300 ease-out flex items-center"
+          >
+            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+            <a
+              href="/#top"
+              className="ml-2 whitespace-nowrap opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-out"
+            >
+              Top
+            </a>
+          </div>
+
+          <div
+            className="group h-6 w-6 hover:w-47 bg-[#FFB900] overflow-hidden transition-all duration-300 ease-out flex items-center"
+          >
+            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+            <a
+              href="/#design-reflections"
+              className="ml-2 whitespace-nowrap opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-out"
+            >
+              Design Reflections
+            </a>
+          </div>
+
+          <div
+            className="group h-6 w-6 hover:w-54 bg-[#F78200] overflow-hidden transition-all duration-300 ease-out flex items-center"
+          >
+            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+            <a
+              href="/#self-portrait"
+              className="ml-2 whitespace-nowrap opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-out"
+            >
+              Self Portrait Collage
+            </a>
+          </div>
+
+          <div
+            className="group h-6 w-6 hover:w-20 bg-[#E23838] overflow-hidden transition-all duration-300 ease-out flex items-center"
+          >
+            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+            <a
+              href="/#red-hot"
+              className="ml-2 whitespace-nowrap opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-out"
+            >
+              RED HOT
+            </a>
+          </div>
+
+          <div
+            className="group h-6 w-6 hover:w-46 bg-[#973999] overflow-hidden transition-all duration-300 ease-out flex items-center"
+          >
+            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+            <a
+              href="/#wallpaper"
+              className="ml-2 whitespace-nowrap opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-out"
+            >
+              Undersea Wallpaper
+            </a>
+          </div>
+
+          <div
+            className="group h-6 w-6 hover:w-46 bg-[#009CDF] overflow-hidden transition-all duration-300 ease-out flex items-center"
+          >
+            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+            <a
+              href="/#poster"
+              className="ml-2 whitespace-nowrap opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-out"
+            >
+              Senic Words Poster
+            </a>
+          </div>
+
+          <div
+            className="group h-6 w-6 hover:w-61 bg-[#5EBD3E] overflow-hidden transition-all duration-300 ease-out flex items-center"
+          >
+            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+            <a
+              href="/#gestalt"
+              className="ml-2 whitespace-nowrap opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-out"
+            >
+              Gestalt Theory Animation
+            </a>
+          </div>
+
+          <div
+            className="group h-6 w-6 hover:w-35 bg-[#FFB900] overflow-hidden transition-all duration-300 ease-out flex items-center"
+          >
+            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+            <a
+              href="/#logo"
+              className="ml-2 whitespace-nowrap opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-out"
+            >
+              Animated Logo
+            </a>
+          </div>
+
+          <div
+            className="group h-6 w-6 hover:w-35 bg-[#F78200] overflow-hidden transition-all duration-300 ease-out flex items-center"
+          >
+            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+            <a
+              href="/#video"
+              className="ml-2 whitespace-nowrap opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-out"
+            >
+              Video Montage
+            </a>
+          </div>
+
+      </div>
+      <section className="h-screen flex flex-row items-center justify-center gap-80" id="top">
         {/*<div className="w-svw top-0 left-0 absolute z-10">*/}
         {/*  <div className="h-4 w-full bg-[#5EBD3E]"></div>*/}
         {/*  <div className="h-4 w-full bg-[#FFB900]"></div>*/}
