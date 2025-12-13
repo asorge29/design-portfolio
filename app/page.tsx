@@ -143,7 +143,7 @@ export default function Home() {
               <h3>DR #4</h3>
               <p className="text-center">
                 The sculpture appears to be a urinal laying down on its back.
-                It looks slightly use or weathered, like it was just taken off a wall somewhere.
+                It looks slightly used or weathered, like it was just taken off a wall somewhere.
                 The orientation & title &quot;Fountain&quot; could be the artist saying that things don&apos;t have
                 to be what we think they are.
               </p>
