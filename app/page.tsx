@@ -337,7 +337,7 @@ export default function Home() {
           &gt; Statement..............................................................................................<br/>
           &gt; This logo combines a bunch of my favorite technology nostalgia with the monomer &quot;asorge29&quot;, which is my<br/>
           &gt; developer username. It is heavily inspired by a Linux computer booting up, and even features recordings<br/>
-          &gt; of a hard dick drive spinning up and mechanical keystrokes.
+          &gt; of a hard disk drive spinning up and mechanical keystrokes.
         </pre>
         <video controls className="h-full w-auto max-w-1/2 max-h-1/2 mt-4">
           <source src="/animated_logo.mp4" type="video/mp4" />
